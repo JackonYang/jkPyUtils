@@ -10,7 +10,9 @@ test:
 
 
 build:
+	rm -rf dist build jkPyUtils.egg-info
 	$(PY) setup.py sdist bdist_wheel
+	rm -rf jkPyUtils.egg-info
 
 upload:
 	twine upload dist/*
