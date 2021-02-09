@@ -5,6 +5,19 @@ Common Utils for Python from Jackon
 [https://pypi.org/project/jkPyUtils](https://pypi.org/project/jkPyUtils)
 
 
+## API doc
+
+TODO
+
+- requests2: get text / binary, use cache
+- cache
+
+Try examples:
+
+```bash
+python samples/requests2/demo_requests2.py
+```
+
 ## 贡献代码
 
 #### 开发环境
